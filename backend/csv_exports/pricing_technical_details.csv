@@ -1,0 +1,10 @@
+id,pricing_plan_id,detail_text
+1,1,"Digital Vault: Secure, encrypted storage for all student dossiers and KYC documents."
+2,1,Auto-ID: Instant generation of digital identity cards and enrollment numbers.
+3,1,Smart Library: Barcode-integrated book tracking with automated fine calculation.
+4,2,Conflict-Free AI: Advanced heuristics engine for generating complex teacher/room schedules.
+5,2,Finance Suite: Real-time bank reconciliation and automated fee-reminder triggers.
+6,2,Fleet-Track: GPS-integrated transport management with driver performance analytics.
+7,3,Master-Hub Architecture: Centralized control for unlimited sub-campuses with cross-tenant reporting.
+8,3,Zero-Trust Security: Biometric and multi-factor authentication for high-level admin operations.
+9,3,Elastic Deployment: Horizontal scaling support for peak-load periods like exam results.

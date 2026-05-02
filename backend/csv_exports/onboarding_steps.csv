@@ -1,0 +1,5 @@
+id,step_number,title,description,duration,status
+1,01,Institutional Audit,Our senior analysts perform a deep-dive into your current legacy systems and data silos.,Week 1-2,Discovery
+2,02,Data Orchestration,"Automated migration of student, financial, and administrative records into the iERP cloud.",Week 3-6,Migration
+3,03,Command Center Setup,Configuration of institutional-level permissions and security protocols.,Week 7-8,Configuration
+4,04,Faculty Immersion,Comprehensive training and UI onboarding for administrative and teaching staff.,Week 9-10,Launch

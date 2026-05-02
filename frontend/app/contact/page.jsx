@@ -148,10 +148,10 @@ const ContactHub = () => {
                     />
                   </div>
 
-                  <button className="group relative flex w-full items-center justify-center gap-3 overflow-hidden rounded-2xl bg-premium-brown py-6 text-base font-black uppercase tracking-[0.2em] text-white transition-all hover:brightness-110 active:scale-95 shadow-2xl">
+                  <button className="group relative flex w-full items-center justify-center gap-2 md:gap-3 overflow-hidden rounded-2xl bg-premium-brown py-4 md:py-6 text-xs md:text-base font-black uppercase tracking-[0.2em] text-white transition-all hover:brightness-110 active:scale-95 shadow-2xl">
                      <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/10 to-transparent transition-transform duration-500 group-hover:translate-x-full" />
                      <span>Send Request</span>
-                     <ArrowRight size={22} className="transition-transform group-hover:translate-x-1" />
+                     <ArrowRight className="h-4 w-4 md:h-[22px] md:w-[22px] transition-transform group-hover:translate-x-1" />
                   </button>
                 </form>
               </div>

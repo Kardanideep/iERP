@@ -1,0 +1,4 @@
+id,name,monthly_price,annual_price,save_amount,period,description,cta_text,is_popular
+1,Standard,"₹15,000","₹12,000","Save ₹3,000",per month,Perfect for small colleges focusing on core student management.,Get Started,false
+2,Professional,"₹45,000","₹36,000","Save ₹9,000",per month,Advanced features for growing colleges and mid-sized universities.,Most Popular,true
+3,Enterprise,Custom,Custom,,bespoke,Full-scale ecosystem for large universities and multiple campuses.,Contact Sales,false

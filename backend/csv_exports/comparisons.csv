@@ -1,0 +1,7 @@
+id,feature,us_value,competitor_a_value,competitor_b_value
+1,Real-time Collaboration,true,true,false
+2,AI-Powered Insights,true,false,false
+3,Unlimited Storage,true,false,true
+4,24/7 Dedicated Support,true,true,false
+5,Custom API Access,true,false,false
+6,Enterprise Security,true,true,true

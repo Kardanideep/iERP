@@ -21,20 +21,20 @@ const HowItWorks = () => {
       if (!sectionRef.current) return;
       const rect = sectionRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight;
-      
+
       // Calculate progress based on the section's position relative to viewport
       const totalHeight = rect.height;
       const offsetStart = windowHeight * 0.7; // Start animating when section is 70% from top
       const offsetEnd = windowHeight * 0.3;   // Stop when section is 30% from top
-      
+
       const currentPos = offsetStart - rect.top;
       const totalTravel = totalHeight + offsetStart - offsetEnd;
-      
+
       let progress = currentPos / totalTravel;
       progress = Math.max(0, Math.min(1, progress));
-      
+
       setScrollProgress(progress);
-      
+
       // Update active step based on progress
       const stepCount = stepsData.length;
       const stepIndex = Math.floor(progress * stepCount);
@@ -65,18 +65,18 @@ const HowItWorks = () => {
         <div className="absolute top-[40px] bottom-[40px] left-[40px] z-0 w-1 pointer-events-none sm:left-[40px]">
           <svg className="h-full w-full" preserveAspectRatio="none">
             {/* Background dashed line */}
-            <line 
-              x1="50%" y1="0" x2="50%" y2="100%" 
-              stroke="#774936" strokeWidth="2" strokeDasharray="8 8" 
+            <line
+              x1="50%" y1="0" x2="50%" y2="100%"
+              stroke="#774936" strokeWidth="2" strokeDasharray="8 8"
               className="opacity-20"
             />
             {/* Progress filling line */}
-            <line 
-              x1="50%" y1="0" x2="50%" y2="100%" 
-              stroke="#774936" strokeWidth="4" strokeLinecap="round" 
+            <line
+              x1="50%" y1="0" x2="50%" y2="100%"
+              stroke="#774936" strokeWidth="4" strokeLinecap="round"
               pathLength="1"
-              style={{ 
-                strokeDasharray: 1, 
+              style={{
+                strokeDasharray: 1,
                 strokeDashoffset: 1 - scrollProgress,
                 transition: 'stroke-dashoffset 150ms linear'
               }}
@@ -91,20 +91,20 @@ const HowItWorks = () => {
           const IconComponent = iconMap[step.icon];
 
           return (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`relative z-10 flex items-start gap-12 transition-all duration-1000 ease-out sm:gap-8 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}
             >
               <div className="relative shrink-0">
                 {/* Step Circle */}
                 <div className={`relative flex h-20 w-20 items-center justify-center rounded-full border-4 bg-[#0c1012] text-premium-tan shadow-2xl transition-all duration-500 ${isActive ? 'scale-110 border-premium-burgundy bg-premium-burgundy text-premium-cream shadow-premium-burgundy/40' : isVisible ? 'border-premium-brown bg-[#111618] text-premium-cream' : 'border-premium-brown/30 opacity-50'}`}>
                   {IconComponent && <IconComponent className={`h-9 w-9 transition-all duration-500 ${isActive ? 'scale-110 rotate-3' : ''}`} />}
-                  
+
                   {/* Step Number Badge */}
                   <div className={`absolute -top-1 -right-1 flex h-7 w-7 items-center justify-center rounded-full border-2 border-premium-black text-xs font-black text-premium-cream shadow-lg transition-colors duration-500 ${isActive ? 'bg-premium-burgundy' : 'bg-premium-brown'}`}>
                     {step.number}
                   </div>
-                  
+
                   {/* Pulsing Glow for Active Step */}
                   {isActive && (
                     <div className="absolute inset-0 z-[-1] animate-pulse-slow rounded-full bg-premium-burgundy/30 blur-md" />

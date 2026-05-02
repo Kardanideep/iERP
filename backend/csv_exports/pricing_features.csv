@@ -1,0 +1,18 @@
+id,pricing_plan_id,feature_text
+1,1,Student Admission & Registration
+2,1,Academic Record Management
+3,1,Basic Examination Tools
+4,1,Library & Inventory Support
+5,1,Standard Email Notifications
+6,2,Everything in Standard
+7,2,AI-Driven Timetable Automation
+8,2,Hostel & Transport Management
+9,2,Finance & Accounting Suite
+10,2,Priority Support & Training
+11,2,SMS & WhatsApp Integration
+12,3,Everything in Professional
+13,3,Multi-Campus Management Hub
+14,3,Dedicated Account Manager
+15,3,Full API Access & Integrations
+16,3,On-Premise Deployment Option
+17,3,Custom Module Development

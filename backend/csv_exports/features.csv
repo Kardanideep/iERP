@@ -1,0 +1,7 @@
+id,category_id,title,details,icon
+1,2,Predictive Retention,AI models that flag at-risk students with 98% accuracy.,Zap
+2,3,Automated Budgeting,Real-time fiscal monitoring and multi-currency ledger sync.,BarChart3
+3,4,Zero-Trust Security,Military-grade encryption for all institutional records.,Shield
+4,5,Global API Suite,Seamless integration with third-party academic tools.,Code2
+5,2,Unified Student Portal,A single mobile-first interface for all student services.,Users
+6,2,Smart Timetabling,Algorithmic scheduling that optimizes classroom utilization.,Clock

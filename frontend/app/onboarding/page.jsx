@@ -27,7 +27,7 @@ export default function OnboardingPage() {
                   {item.step}
                </div>
 
-               <div className={`w-full md:w-1/2 ${i % 2 === 1 ? 'md:pl-20' : 'md:pr-20'}`}>
+               <div className={`w-full pl-24 md:w-1/2 ${i % 2 === 1 ? 'md:pl-20 md:pr-0' : 'md:pr-20 md:pl-0'}`}>
                   <div className="rounded-[40px] border border-white/5 bg-[#0a0a0a] p-10 text-left transition-all hover:border-premium-brown/20 hover:bg-[#0c0c0c]">
                      <div className="mb-4 flex items-center justify-between">
                         <span className="text-[10px] font-black uppercase tracking-widest text-premium-brown/60">{item.status}</span>

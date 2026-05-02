@@ -1,0 +1,3 @@
+id,product_id,type_slug,title,description
+1,1,saas,SaaS (Software-as-a-Service),"Delivered as a scalable cloud solution, ensuring easy access, automatic updates, lower infrastructure costs, and rapid deployment—enabling institutions to focus on education rather than IT overhead."
+2,1,onPremise,On-Premise Deployment,"For institutions that prefer local control, iERP is available for installation on university-owned servers, offering full flexibility based on operational needs."

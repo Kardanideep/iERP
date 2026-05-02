@@ -130,8 +130,8 @@ export default function FAQPage() {
       <FAQHero searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       
       {/* Category Filter */}
-      <section className="sticky top-20 z-40 w-full border-y border-white/5 bg-[#080808]/80 py-6 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-center gap-4 overflow-x-auto px-5 scrollbar-hide">
+      <section className="relative md:sticky md:top-20 z-40 w-full border-y border-white/5 bg-[#080808]/80 py-6 backdrop-blur-xl">
+        <div className="mx-auto flex max-w-7xl items-center justify-start md:justify-center gap-4 overflow-x-auto px-5 scrollbar-hide">
           {['All', ...faqData.categories].map((cat) => (
             <button
               key={cat}
@@ -210,10 +210,10 @@ export default function FAQPage() {
                <p className="mb-10 text-xl text-premium-tan/40">Our institutional experts are available 24/7 to provide in-depth technical guidance.</p>
                <Link 
                  href="/contact"
-                 className="group inline-flex items-center gap-3 rounded-full bg-premium-brown px-10 py-5 text-lg font-black uppercase tracking-widest text-white transition-all hover:-translate-y-1 hover:brightness-110 shadow-2xl"
+                 className="group inline-flex items-center gap-2 md:gap-3 rounded-full bg-premium-brown px-6 py-4 md:px-10 md:py-5 text-xs md:text-lg font-black uppercase tracking-widest text-white transition-all hover:-translate-y-1 hover:brightness-110 shadow-2xl"
                >
                  Contact Support
-                 <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
+                 <ArrowRight className="h-4 w-4 md:h-5 md:w-5 transition-transform group-hover:translate-x-1" />
                </Link>
             </div>
          </div>

@@ -1,0 +1,5 @@
+id,step_number,title,description,icon
+1,1,Create Account,Sign up in seconds and get access to our full suite of tools and resources.,user-plus
+2,2,Configure Workflow,Set up your environment and customize your preferences to match your needs.,settings
+3,3,Analyze Data,Upload your datasets and let our AI-powered engine extract meaningful insights.,activity
+4,4,Get Results,Export your reports and share them with your team to drive better decisions.,check-circle

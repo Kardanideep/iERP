@@ -290,8 +290,8 @@ export default function BlogPage() {
         <FeaturedPost post={blogData.featured} onClick={setSelectedPost} />
         
         {/* Category Navigation */}
-        <section className="sticky top-20 z-40 w-full border-y border-white/5 bg-[#080808]/80 py-6 backdrop-blur-xl">
-          <div className="mx-auto flex max-w-7xl items-center justify-center gap-4 overflow-x-auto px-5 scrollbar-hide">
+        <section className="relative md:sticky md:top-20 z-40 w-full border-y border-white/5 bg-[#080808]/80 py-6 backdrop-blur-xl">
+          <div className="mx-auto flex max-w-7xl items-center justify-start md:justify-center gap-4 overflow-x-auto px-5 scrollbar-hide">
             {blogData.categories.map((cat) => (
               <button
                 key={cat}

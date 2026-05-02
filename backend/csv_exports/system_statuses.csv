@@ -1,0 +1,5 @@
+id,label,status,color_hex
+1,Core Engine,Operational,#22c55e
+2,Data API,Operational,#22c55e
+3,Auth Hub,Operational,#22c55e
+4,CDN Network,Operational,#22c55e

@@ -23,10 +23,11 @@ const LatestBlogPosts = () => {
         {blogData.posts.slice(0, 4).map((post) => (
           <article 
             key={post.id} 
-            className="group relative flex flex-col overflow-hidden rounded-[32px] border border-white/5 bg-[#0a0a0a] transition-all duration-700 hover:-translate-y-3 hover:border-premium-brown/30 shadow-2xl"
+            tabIndex={0}
+            className="group relative flex flex-col overflow-hidden rounded-[32px] border border-white/5 bg-[#0a0a0a] transition-all duration-700 hover:-translate-y-3 focus:-translate-y-3 hover:border-premium-brown/30 focus:border-premium-brown/30 shadow-2xl focus:outline-none cursor-pointer"
           >
             {/* Bottom Sweep Line */}
-            <div className="absolute bottom-0 left-0 h-1.5 w-0 bg-gradient-to-r from-premium-brown to-premium-burgundy transition-all duration-1000 group-hover:w-full" />
+            <div className="absolute bottom-0 left-0 h-1.5 w-0 bg-gradient-to-r from-premium-brown to-premium-burgundy transition-all duration-1000 group-hover:w-full group-focus:w-full" />
 
             <div className="relative h-56 w-full overflow-hidden">
               <img src={post.image} alt={post.title} className="h-full w-full object-cover transition-all duration-1000" />
@@ -41,19 +42,19 @@ const LatestBlogPosts = () => {
               </div>
               
               <div className="relative mb-4">
-                <h3 className="text-xl font-black leading-tight text-premium-cream transition-colors duration-500 group-hover:text-premium-tan">
+                <h3 className="text-xl font-black leading-tight text-premium-cream transition-colors duration-500 group-hover:text-premium-tan group-focus:text-premium-tan">
                   {post.title}
                 </h3>
                 {/* Interactive Title Underline */}
-                <div className="absolute -bottom-2 left-0 h-0.5 w-0 bg-premium-brown/40 transition-all duration-500 group-hover:w-20" />
+                <div className="absolute -bottom-2 left-0 h-0.5 w-0 bg-premium-brown/40 transition-all duration-500 group-hover:w-20 group-focus:w-20" />
               </div>
 
-              <p className="mb-8 text-sm leading-relaxed text-premium-tan/60 line-clamp-2 transition-colors duration-500 group-hover:text-premium-tan/80">
+              <p className="mb-8 text-sm leading-relaxed text-premium-tan/60 line-clamp-2 transition-colors duration-500 group-hover:text-premium-tan/80 group-focus:text-premium-tan/80">
                 {post.excerpt}
               </p>
 
-              <div className="mt-auto flex items-center gap-2 text-xs font-black uppercase tracking-widest text-premium-cream transition-all duration-300 group-hover:gap-4 group-hover:text-premium-brown">
-                Read Entry <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+              <div className="mt-auto flex items-center gap-2 text-xs font-black uppercase tracking-widest text-premium-cream transition-all duration-300 group-hover:gap-4 group-focus:gap-4 group-hover:text-premium-brown group-focus:text-premium-brown">
+                Read Entry <ArrowRight size={14} className="transition-transform group-hover:translate-x-1 group-focus:translate-x-1" />
               </div>
             </div>
           </article>

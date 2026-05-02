@@ -1,0 +1,41 @@
+id,category_id,question,answer
+1,1,What is iERP?,iERP is a high-fidelity institutional management ecosystem designed for modern universities and colleges.
+2,1,How long does implementation take?,A standard implementation typically ranges from 4 to 12 weeks depending on campus size.
+3,2,Does iERP support on-premise deployment?,"Yes, our Enterprise plan includes options for dedicated on-premise or private cloud deployment."
+4,3,Are there any hidden costs?,No. Our pricing is transparent. Implementation and training fees are clearly outlined in the proposal.
+5,4,How is my data protected?,"We use AES-256 encryption at rest and TLS 1.3 for all data in transit, with 24/7 security monitoring."
+6,5,Can we manage multi-campus timetables?,Absolutely. Our AI heuristics engine handles conflict-free scheduling across unlimited campuses.
+7,1,Is training provided for staff?,"Yes, every plan includes a dedicated training period for both administrative and academic staff."
+8,2,What are the system requirements?,iERP is a cloud-native platform accessible via any modern web browser. No local hardware is required.
+9,3,Can we upgrade our plan later?,"Yes, you can upgrade from Standard to Professional or Enterprise at any point during your cycle."
+10,4,Is iERP compliant with local regulations?,"We maintain compliance with major global standards including GDPR, SOC2, and local educational data laws."
+11,5,How does the AI timetable engine work?,"It uses advanced genetic algorithms to optimize teacher, student, and room availability while minimizing gaps."
+12,1,Can we import existing student data?,"Yes, we provide automated migration tools and expert assistance to import your legacy data."
+13,2,Do you provide API access?,Our Professional and Enterprise plans offer full RESTful API access for third-party integrations.
+14,3,What payment methods are accepted?,"We accept institutional wire transfers, corporate credit cards, and major digital payment gateways."
+15,4,Is multi-factor authentication supported?,"Yes, MFA is mandatory for all administrative accounts to ensure maximum system integrity."
+16,5,Can students view their grades online?,"Yes, the integrated Student Portal provides real-time access to grades, attendance, and schedules."
+17,1,Do you offer a free trial?,We offer detailed product demonstrations and a sandbox environment for evaluation.
+18,2,What is the guaranteed uptime?,We guarantee 99.9% uptime with a financially backed Service Level Agreement (SLA).
+19,3,Are there discounts for non-profits?,We offer specialized pricing for non-profit educational institutions and NGOs.
+20,4,Where are your data centers located?,"We use Tier-4 data centers across AWS and Azure regions in India, Europe, and Singapore."
+21,5,Does iERP support online examinations?,"Yes, our exam module includes secure online testing, proctoring tools, and automated grading."
+22,1,How do I get support?,"Support is available via our 24/7 helpdesk, email, and dedicated institutional account managers."
+23,2,Can we use our own domain?,"Yes, you can white-label the platform using your own subdomains (e.g., portal.university.edu)."
+24,3,Is there a long-term contract requirement?,"Annual plans offer significant savings, but we also provide flexible monthly billing cycles."
+25,4,Can we export our data at any time?,"Yes, you own your data. You can perform full encrypted exports of your institutional records at any time."
+26,5,Does the system handle alumni records?,"Yes, we have a dedicated Alumni Module for tracking post-graduation success and engagement."
+27,1,What languages are supported?,"Currently, iERP supports English, Hindi, and Arabic, with more languages in our roadmap."
+28,2,How often is the software updated?,"We push minor updates weekly and major feature releases every quarter, with zero downtime."
+29,3,Is there a limit on student accounts?,"Standard plans have tiered limits, while Enterprise plans offer unlimited student and staff seating."
+30,4,Are staff actions logged?,"Yes, full audit logs are maintained for every administrative action taken within the system."
+31,5,Can we manage library inventories?,"Yes, our Smart Library module includes barcode tracking, fine management, and digital lending."
+32,1,Can iERP manage transport fleets?,"Yes, our Fleet-Track module provides GPS tracking and route optimization for campus buses."
+33,2,Is the mobile app included?,"Yes, both Android and iOS apps for students and staff are included in all plans."
+34,3,What is the cancellation policy?,You can cancel your subscription with a 30-day notice period. Data export assistance is provided.
+35,4,Who has access to our database?,Only authorized institutional administrators. iERP staff only access databases upon explicit request for support.
+36,5,Can we generate custom report cards?,"Yes, our report engine allows for bespoke design of transcripts, certificates, and grade sheets."
+37,1,How do we request a feature?,We have a dedicated client portal where you can submit and vote on new feature requests.
+38,2,Does iERP support LDAP integration?,"Yes, we support LDAP, Active Directory, and Google Workspace for single sign-on (SSO)."
+39,3,Is tax included in the price?,"Prices are exclusive of local taxes (e.g., GST/VAT) which are applied based on your jurisdiction."
+40,4,Do you perform regular penetration testing?,"Yes, we conduct quarterly third-party security audits and daily automated vulnerability scans."

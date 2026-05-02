@@ -91,7 +91,7 @@ const StatsBar = () => {
   const ref = useReveal();
   return (
     <section ref={ref} className="w-full bg-[#0c0c0c] px-5 py-16">
-      <div className="mx-auto grid max-w-6xl grid-cols-4 gap-8 sm:grid-cols-2">
+      <div className="mx-auto grid max-w-6xl grid-cols-2 md:grid-cols-4 gap-8 sm:gap-4">
         {aboutData.stats.map((stat, i) => (
           <div key={i} className="flex flex-col items-center text-center">
             <div className="text-4xl font-extrabold text-premium-cream md:text-5xl">{stat.value}</div>
@@ -131,22 +131,22 @@ const MissionVision = () => {
   const ref = useReveal();
   return (
     <section ref={ref} className="flex w-full flex-col items-center bg-[#0c0c0c] px-5 py-24">
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 sm:grid-cols-1">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 md:grid-cols-2 gap-8">
         {/* Mission */}
-        <div className="glass-premium flex flex-col gap-6 rounded-3xl p-10 transition-all duration-400 hover:-translate-y-1 hover:border-premium-tan hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-premium-brown to-premium-burgundy text-premium-cream shadow-lg">
-            <Target size={28} />
+        <div className="glass-premium flex flex-col gap-6 rounded-3xl p-8 md:p-10 transition-all duration-400 hover:-translate-y-1 hover:border-premium-tan hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
+          <div className="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-2xl bg-linear-to-br from-premium-brown to-premium-burgundy text-premium-cream shadow-lg">
+            <Target className="h-6 w-6 md:h-7 md:w-7" />
           </div>
-          <h3 className="text-2xl font-bold text-premium-cream">{aboutData.mission.title}</h3>
-          <p className="text-lg leading-relaxed text-premium-tan opacity-90">{aboutData.mission.description}</p>
+          <h3 className="text-xl md:text-2xl font-bold text-premium-cream">{aboutData.mission.title}</h3>
+          <p className="text-base md:text-lg leading-relaxed text-premium-tan opacity-90">{aboutData.mission.description}</p>
         </div>
         {/* Vision */}
-        <div className="glass-premium flex flex-col gap-6 rounded-3xl p-10 transition-all duration-400 hover:-translate-y-1 hover:border-premium-tan hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
-          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-premium-brown to-premium-burgundy text-premium-cream shadow-lg">
-            <Globe size={28} />
+        <div className="glass-premium flex flex-col gap-6 rounded-3xl p-8 md:p-10 transition-all duration-400 hover:-translate-y-1 hover:border-premium-tan hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
+          <div className="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-2xl bg-linear-to-br from-premium-brown to-premium-burgundy text-premium-cream shadow-lg">
+            <Globe className="h-6 w-6 md:h-7 md:w-7" />
           </div>
-          <h3 className="text-2xl font-bold text-premium-cream">{aboutData.vision.title}</h3>
-          <p className="text-lg leading-relaxed text-premium-tan opacity-90">{aboutData.vision.description}</p>
+          <h3 className="text-xl md:text-2xl font-bold text-premium-cream">{aboutData.vision.title}</h3>
+          <p className="text-base md:text-lg leading-relaxed text-premium-tan opacity-90">{aboutData.vision.description}</p>
         </div>
       </div>
     </section>

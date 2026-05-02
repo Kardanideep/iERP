@@ -1,0 +1,4 @@
+id,slug,icon,title,description,link_url,link_text
+1,knowledge,MessageSquare,Knowledge Base,Browse our comprehensive institutional repository for instant self-service guidance.,/faq,Explore FAQ
+2,global,Globe,Global Support,Direct access to our expert multi-timezone support hotlines and technical leads.,/contact,Contact Center
+3,dev,Settings,Developer Portal,Technical resources for institutional IT teams managing API integrations and data flows.,#,View Docs

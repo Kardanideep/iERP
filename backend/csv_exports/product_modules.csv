@@ -1,0 +1,19 @@
+id,product_id,module_name
+1,1,Administrator Portal
+2,1,Admission Management
+3,1,Academic Planning
+4,1,Exam Management
+5,1,Library Management
+6,1,Hostel Management
+7,1,Transport Management
+8,1,Physical Asset Tracking
+9,1,Internship Tracking
+10,1,Placement Cell
+11,1,Student Portal
+12,1,HR & Payroll
+13,1,Accounts & Finance
+14,1,Purchase & Procurement
+15,1,e-Learning Module
+16,1,Canteen Management
+17,1,Alumni Management
+18,1,Visitor's Module

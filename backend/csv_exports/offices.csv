@@ -1,0 +1,4 @@
+id,city,role,address,timezone
+1,Mumbai,Global HQ,"ERP Tower, Bandra Kurla Complex, Mumbai 400051",GMT+5:30
+2,London,EMEA Hub,"Innovation House, Tech City, London EC1V",GMT+0
+3,Singapore,APAC Centre,"Raffles Place, Financial District, Singapore 048619",GMT+8

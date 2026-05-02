@@ -209,10 +209,10 @@ export default function PricingPage() {
           <p className="mb-10 text-xl text-premium-tan/80">We specialize in bespoke modules for complex university structures. Let's build exactly what you need.</p>
           <Link 
             href="/#demo-form"
-            className="inline-flex items-center gap-3 rounded-full bg-premium-brown px-10 py-5 text-xl font-bold text-white transition-all hover:-translate-y-1 hover:shadow-2xl"
+            className="inline-flex items-center gap-2 md:gap-3 rounded-full bg-premium-brown px-6 py-4 md:px-10 md:py-5 text-sm md:text-xl font-bold text-white transition-all hover:-translate-y-1 hover:shadow-2xl"
           >
             Request Custom Proposal
-            <ArrowRight size={22} />
+            <ArrowRight className="h-5 w-5 md:h-6 md:w-6" />
           </Link>
         </div>
       </section>
