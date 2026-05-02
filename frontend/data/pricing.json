@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "Predictable Pricing for Growing Institutions",
+    "subtitle": "Choose the perfect plan to streamline your campus operations. No hidden fees, just pure institutional efficiency."
+  },
+  "plans": [
+    {
+      "name": "Standard",
+      "monthlyPrice": "₹15,000",
+      "annualPrice": "₹12,000",
+      "saveAmount": "Save ₹3,000",
+      "period": "per month",
+      "desc": "Perfect for small colleges focusing on core student management.",
+      "features": [
+        "Student Admission & Registration",
+        "Academic Record Management",
+        "Basic Examination Tools",
+        "Library & Inventory Support",
+        "Standard Email Notifications"
+      ],
+      "technicalDetails": [
+        "Digital Vault: Secure, encrypted storage for all student dossiers and KYC documents.",
+        "Auto-ID: Instant generation of digital identity cards and enrollment numbers.",
+        "Smart Library: Barcode-integrated book tracking with automated fine calculation."
+      ],
+      "cta": "Get Started",
+      "popular": false
+    },
+    {
+      "name": "Professional",
+      "monthlyPrice": "₹45,000",
+      "annualPrice": "₹36,000",
+      "saveAmount": "Save ₹9,000",
+      "period": "per month",
+      "desc": "Advanced features for growing colleges and mid-sized universities.",
+      "features": [
+        "Everything in Standard",
+        "AI-Driven Timetable Automation",
+        "Hostel & Transport Management",
+        "Finance & Accounting Suite",
+        "Priority Support & Training",
+        "SMS & WhatsApp Integration"
+      ],
+      "technicalDetails": [
+        "Conflict-Free AI: Advanced heuristics engine for generating complex teacher/room schedules.",
+        "Finance Suite: Real-time bank reconciliation and automated fee-reminder triggers.",
+        "Fleet-Track: GPS-integrated transport management with driver performance analytics."
+      ],
+      "cta": "Most Popular",
+      "popular": true
+    },
+    {
+      "name": "Enterprise",
+      "monthlyPrice": "Custom",
+      "annualPrice": "Custom",
+      "saveAmount": null,
+      "period": "bespoke",
+      "desc": "Full-scale ecosystem for large universities and multiple campuses.",
+      "features": [
+        "Everything in Professional",
+        "Multi-Campus Management Hub",
+        "Dedicated Account Manager",
+        "Full API Access & Integrations",
+        "On-Premise Deployment Option",
+        "Custom Module Development"
+      ],
+      "technicalDetails": [
+        "Master-Hub Architecture: Centralized control for unlimited sub-campuses with cross-tenant reporting.",
+        "Zero-Trust Security: Biometric and multi-factor authentication for high-level admin operations.",
+        "Elastic Deployment: Horizontal scaling support for peak-load periods like exam results."
+      ],
+      "cta": "Contact Sales",
+      "popular": false
+    }
+  ]
+}

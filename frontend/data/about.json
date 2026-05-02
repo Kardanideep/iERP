@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "About iERP",
+    "subtitle": "We're building the future of enterprise management — a platform that empowers teams to work smarter, scale faster, and operate with confidence."
+  },
+  "story": {
+    "title": "Our Story",
+    "paragraphs": [
+      "Founded in 2020, iERP was born from a simple belief: enterprise software should be beautiful, intelligent, and effortless to use. Our founders — a team of engineers, designers, and business strategists — were frustrated by clunky, outdated ERP systems that slowed teams down instead of empowering them.",
+      "We set out to reimagine what enterprise resource planning could look like in the modern age. After two years of relentless R&D, iERP launched to overwhelming demand — and we haven't stopped innovating since.",
+      "Today, iERP powers operations for enterprises across 30+ countries, from ambitious startups to Fortune 500 companies. Our platform processes millions of transactions daily, with 99.99% uptime reliability."
+    ]
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To eliminate the complexity of enterprise operations and give every organization — regardless of size — access to world-class tools that were once reserved for the largest corporations."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "A world where businesses spend zero time wrestling with their tools and 100% of their energy on growth, innovation, and impact."
+  },
+  "stats": [
+    { "value": "500+", "label": "Enterprise Clients" },
+    { "value": "30+", "label": "Countries Served" },
+    { "value": "99.99%", "label": "Platform Uptime" },
+    { "value": "2M+", "label": "Daily Transactions" }
+  ],
+  "values": [
+    {
+      "icon": "target",
+      "title": "Customer Obsession",
+      "description": "Every product decision starts with the customer. We build what teams actually need, not what sounds impressive on a roadmap."
+    },
+    {
+      "icon": "zap",
+      "title": "Relentless Innovation",
+      "description": "We ship fast, iterate constantly, and never settle. Our engineering team pushes boundaries with AI, automation, and real-time analytics."
+    },
+    {
+      "icon": "shield",
+      "title": "Trust & Security",
+      "description": "Enterprise data is sacred. We maintain SOC 2 Type II compliance, end-to-end encryption, and a zero-breach track record since day one."
+    },
+    {
+      "icon": "users",
+      "title": "People First",
+      "description": "Our team is our superpower. We invest in culture, growth, and well-being — because great products are built by happy, empowered people."
+    },
+    {
+      "icon": "globe",
+      "title": "Global Perspective",
+      "description": "Built for the world, not just one market. Multi-language, multi-currency, and deeply adaptable to local business practices everywhere."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Design Excellence",
+      "description": "We believe enterprise software should feel premium. Every pixel, every interaction, every animation is crafted with care and intention."
+    }
+  ],
+  "team": [
+    {
+      "name": "Arjun Mehta",
+      "role": "Co-Founder & CEO",
+      "bio": "Former VP of Engineering at SAP. 15+ years in enterprise software. Passionate about democratizing powerful tools.",
+      "avatar": 1
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Co-Founder & CTO",
+      "bio": "Ex-Google engineer with deep expertise in distributed systems. Leads our 60+ engineering team.",
+      "avatar": 2
+    },
+    {
+      "name": "Rahul Kapoor",
+      "role": "VP of Design",
+      "bio": "Previously at Apple and Figma. Believes that enterprise software deserves the same design love as consumer apps.",
+      "avatar": 3
+    },
+    {
+      "name": "Neha Gupta",
+      "role": "VP of Product",
+      "bio": "Product leader who scaled products at Microsoft and Freshworks. Obsessed with customer-driven roadmaps.",
+      "avatar": 4
+    }
+  ],
+  "timeline": [
+    { "year": "2020", "title": "The Idea", "description": "iERP was founded in a small co-working space in Noida with a 5-person team and a bold vision." },
+    { "year": "2021", "title": "First Launch", "description": "Launched v1.0 to beta users. Signed our first 50 enterprise clients within 3 months." },
+    { "year": "2022", "title": "Series A", "description": "Raised $12M in Series A funding. Expanded team to 80+ and opened offices in Bangalore and Dubai." },
+    { "year": "2023", "title": "Global Expansion", "description": "Crossed 300 enterprise clients across 20 countries. Launched AI-powered analytics module." },
+    { "year": "2024", "title": "iERP 2.0", "description": "Complete platform redesign with next-gen AI, real-time collaboration, and 99.99% uptime guarantee." },
+    { "year": "2025", "title": "The Future", "description": "500+ clients, 30+ countries, and just getting started. Building the most intelligent ERP platform on the planet." }
+  ]
+}

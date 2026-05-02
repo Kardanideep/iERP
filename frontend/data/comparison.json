@@ -1,0 +1,38 @@
+[
+  {
+    "feature": "Real-time Collaboration",
+    "us": true,
+    "competitorA": true,
+    "competitorB": false
+  },
+  {
+    "feature": "AI-Powered Insights",
+    "us": true,
+    "competitorA": false,
+    "competitorB": false
+  },
+  {
+    "feature": "Unlimited Storage",
+    "us": true,
+    "competitorA": false,
+    "competitorB": true
+  },
+  {
+    "feature": "24/7 Dedicated Support",
+    "us": true,
+    "competitorA": true,
+    "competitorB": false
+  },
+  {
+    "feature": "Custom API Access",
+    "us": true,
+    "competitorA": false,
+    "competitorB": false
+  },
+  {
+    "feature": "Enterprise Security",
+    "us": true,
+    "competitorA": true,
+    "competitorB": true
+  }
+]

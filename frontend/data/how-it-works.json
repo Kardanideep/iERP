@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Cloud-Native Core",
+    "description": "Every module runs on isolated microservices for maximum uptime and security.",
+    "icon": "Cloud",
+    "technicalDetail": "Docker & Kubernetes Orchestration",
+    "detailedBreakdown": "Our microservices architecture ensures that institutional modules operate in isolated environments. This prevents system-wide cascading failures and allows for granular resource scaling during peak academic periods like enrollment and grading."
+  },
+  {
+    "id": 2,
+    "title": "AI Heuristics",
+    "description": "Real-time analysis of campus data to predict trends and risks automatically.",
+    "icon": "Cpu",
+    "technicalDetail": "TensorFlow Predictive Models",
+    "detailedBreakdown": "The heuristics engine processes over 50 institutional data points per second. By leveraging machine learning models trained on millions of academic data points, we can predict student retention risks with surgical precision before they impact graduation rates."
+  },
+  {
+    "id": 3,
+    "title": "Unified Ledger",
+    "description": "Financial synchronization across all departments with zero manual entry.",
+    "icon": "RefreshCw",
+    "technicalDetail": "Automated Multi-currency Sync",
+    "detailedBreakdown": "The unified ledger utilizes a real-time reconciliation engine that connects decentralized departmental budgets into a single master fiscal cloud. This eliminates the 48-hour lag common in traditional institutional banking syncs."
+  },
+  {
+    "id": 4,
+    "title": "Zero-Trust Mesh",
+    "description": "Every data request is authenticated at the node level to prevent breaches.",
+    "icon": "Shield",
+    "technicalDetail": "mTLS & JWT Identity Layer",
+    "detailedBreakdown": "Our security mesh operates on a 'never trust, always verify' policy. Every internal and external request is encrypted and validated against institutional identity providers, ensuring that sensitive student data is never exposed even in a compromised environment."
+  }
+]

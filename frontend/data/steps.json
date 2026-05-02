@@ -1,0 +1,26 @@
+[
+  {
+    "number": 1,
+    "title": "Create Account",
+    "description": "Sign up in seconds and get access to our full suite of tools and resources.",
+    "icon": "user-plus"
+  },
+  {
+    "number": 2,
+    "title": "Configure Workflow",
+    "description": "Set up your environment and customize your preferences to match your needs.",
+    "icon": "settings"
+  },
+  {
+    "number": 3,
+    "title": "Analyze Data",
+    "description": "Upload your datasets and let our AI-powered engine extract meaningful insights.",
+    "icon": "activity"
+  },
+  {
+    "number": 4,
+    "title": "Get Results",
+    "description": "Export your reports and share them with your team to drive better decisions.",
+    "icon": "check-circle"
+  }
+]

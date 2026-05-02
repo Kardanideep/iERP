@@ -1,0 +1,30 @@
+[
+  {
+    "id": "higher-ed",
+    "title": "Higher Education",
+    "focus": "Large-scale university management and multi-campus networks.",
+    "description": "A comprehensive operating system for modern universities, balancing academic excellence with administrative efficiency.",
+    "image": "https://images.unsplash.com/photo-1541339907198-e08756ebafe3?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "research",
+    "title": "Research Hubs",
+    "focus": "Secure grant management and high-integrity data collaboration.",
+    "description": "Protecting high-value intellectual property while providing researchers with the tools they need to collaborate globally.",
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "technical",
+    "title": "Technical Academies",
+    "focus": "Skills-based tracking and rapid course deployment workflows.",
+    "description": "Optimized for the high-velocity requirements of modern skill centers and vocational technical institutes.",
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "k12",
+    "title": "K-12 Systems",
+    "focus": "District-level coordination and student development monitoring.",
+    "description": "Ensuring student safety and academic progress across entire school districts with unified data governance.",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=600"
+  }
+]

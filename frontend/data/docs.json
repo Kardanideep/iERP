@@ -1,0 +1,67 @@
+{
+  "categories": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "icon": "Zap",
+      "articles": [
+        {
+          "id": "platform-overview",
+          "title": "Platform Overview",
+          "content": "The iERP platform is a next-generation institutional resource planning ecosystem designed for the modern academic landscape. Our architecture leverages cloud-native microservices to provide unparalleled scalability and real-time data synchronization across all campus departments. This guide provides a high-level overview of the core modules including Admissions, Finance, and Student Success."
+        },
+        {
+          "id": "quick-start",
+          "title": "Quick Start Guide",
+          "content": "To begin your journey with iERP, you first need to configure your institutional tenant. Navigate to the Command Center and verify your administrative credentials. Once authenticated, you can begin importing legacy data using our automated migration tools. Follow the step-by-step wizard to set up your first academic semester."
+        }
+      ]
+    },
+    {
+      "id": "api-reference",
+      "title": "API Reference",
+      "icon": "Code2",
+      "articles": [
+        {
+          "id": "auth-api",
+          "title": "Authentication API",
+          "content": "iERP uses JWT (JSON Web Tokens) for all API interactions. Secure your requests by including the Bearer token in the Authorization header. Our Zero-Trust security model requires fresh token generation every 24 hours. Refer to the /v1/auth endpoint for detailed payload specifications."
+        },
+        {
+          "id": "student-data-api",
+          "title": "Student Data API",
+          "content": "The Student Data API provides programmatic access to academic records, attendance logs, and performance heuristics. All requests are rate-limited to 1,000 calls per minute per institution to ensure global platform stability. Use the /v1/students/{id} endpoint for individual record retrieval."
+        }
+      ]
+    },
+    {
+      "id": "security-compliance",
+      "title": "Security & Compliance",
+      "icon": "ShieldCheck",
+      "articles": [
+        {
+          "id": "data-encryption",
+          "title": "Data Encryption",
+          "content": "All data within the iERP ecosystem is encrypted at rest using AES-256 and in transit via TLS 1.3. Our infrastructure is hosted in ISO 27001 certified data centers with 24/7 physical monitoring. We perform weekly automated vulnerability scans to ensure your institutional data remains impenetrable."
+        },
+        {
+          "id": "gdpr-compliance",
+          "title": "GDPR & FERPA",
+          "content": "iERP is fully compliant with global data privacy regulations including GDPR and FERPA. We provide institutions with granular control over data retention and student privacy settings. Our automated compliance engine flags any potential privacy risks in real-time."
+        }
+      ]
+    },
+    {
+      "id": "best-practices",
+      "title": "Best Practices",
+      "icon": "Lightbulb",
+      "articles": [
+        {
+          "id": "performance-tuning",
+          "title": "Performance Tuning",
+          "content": "Optimize your institution's portal performance by leveraging edge-caching for static assets. Our research shows that reducing query complexity in the custom reporting engine can decrease dashboard load times by up to 40%. Follow our guidelines on efficient data indexing."
+        }
+      ]
+    }
+  ]
+}

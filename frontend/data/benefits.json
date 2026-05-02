@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Increased Productivity",
+    "description": "Streamline your workflows and eliminate repetitive tasks to focus on what matters most.",
+    "icon": "trending-up"
+  },
+  {
+    "title": "Cost Optimization",
+    "description": "Reduce operational overhead with our efficient resource management and automated scaling.",
+    "icon": "dollar-sign"
+  },
+  {
+    "title": "Enhanced Collaboration",
+    "description": "Bring your team together with real-time editing and integrated communication tools.",
+    "icon": "users"
+  },
+  {
+    "title": "Data-Driven Decisions",
+    "description": "Leverage advanced analytics to gain actionable insights and drive your business forward.",
+    "icon": "lightbulb"
+  }
+]

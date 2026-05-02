@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the setup process like?",
+    "answer": "Getting started is easy! Once you sign up, you can connect your existing tools in minutes using our intuitive setup wizard and pre-built integrations."
+  },
+  {
+    "question": "Can I upgrade or downgrade my plan at any time?",
+    "answer": "Yes, you can change your plan at any time from your dashboard. Changes are applied immediately and reflected in your next billing cycle."
+  },
+  {
+    "question": "Is my data secure on your platform?",
+    "answer": "Security is our top priority. We use bank-grade encryption, regular security audits, and comply with major standards like SOC2 and GDPR to ensure your data is always protected."
+  },
+  {
+    "question": "Do you offer discounts for non-profits?",
+    "answer": "Yes, we love supporting organizations that do good! Contact our sales team with proof of your non-profit status to receive a special 50% discount on all annual plans."
+  },
+  {
+    "question": "What kind of support can I expect?",
+    "answer": "All plans include access to our community forums and help center. Professional and Enterprise plans include 24/7 priority email and chat support."
+  }
+]

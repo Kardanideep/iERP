@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Helena Vance",
+    "role": "Vice Chancellor",
+    "institution": "Northern Ivy University",
+    "quote": "The transition to iERP was the single most impactful administrative decision we've made in a decade. The depth of their AI integration is unparalleled.",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Thorne",
+    "role": "Chief Information Officer",
+    "institution": "Global Tech Institute",
+    "quote": "iERP's Zero-Trust architecture finally gave us the peace of mind we needed for our sensitive research data. It's security without the friction.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Aris Thorne",
+    "role": "Director of Research",
+    "institution": "Stanford Global Institute",
+    "quote": "The predictive analytics provided by iERP have transformed our retention strategy, allowing us to intervene before students even realize they need help.",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Aris Thorne",
+    "role": "Director of Research",
+    "institution": "Stanford Global Institute",
+    "quote": "The predictive analytics provided by iERP have transformed our retention strategy, allowing us to intervene before students even realize they need help.",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
+  }
+]

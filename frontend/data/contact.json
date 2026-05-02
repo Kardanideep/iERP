@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Global Support. Institutional Impact.",
+    "subtitle": "Connecting your institution with expert ERP guidance. Reach out to our dedicated teams across the globe."
+  },
+  "contactMethods": [
+    {
+      "id": "sales",
+      "title": "Institutional Sales",
+      "desc": "Bespoke licensing models for universities and large-scale campuses.",
+      "email": "sales@ierp.com",
+      "phone": "+91 800 123 4567",
+      "icon": "zap"
+    },
+    {
+      "id": "support",
+      "title": "Expert Support",
+      "desc": "24/7 technical assistance for our existing institutional partners.",
+      "email": "support@ierp.com",
+      "phone": "+91 800 765 4321",
+      "icon": "shield"
+    },
+    {
+      "id": "media",
+      "title": "Media & Press",
+      "desc": "For press inquiries, brand partnerships, and institutional events.",
+      "email": "press@ierp.com",
+      "phone": "+91 800 999 8888",
+      "icon": "globe"
+    }
+  ],
+  "offices": [
+    {
+      "city": "Mumbai",
+      "role": "Global HQ",
+      "address": "ERP Tower, Bandra Kurla Complex, Mumbai 400051",
+      "timezone": "GMT+5:30"
+    },
+    {
+      "city": "London",
+      "role": "EMEA Hub",
+      "address": "Innovation House, Tech City, London EC1V",
+      "timezone": "GMT+0"
+    },
+    {
+      "city": "Singapore",
+      "role": "APAC Centre",
+      "address": "Raffles Place, Financial District, Singapore 048619",
+      "timezone": "GMT+8"
+    }
+  ],
+  "socials": [
+    { "name": "LinkedIn", "url": "https://linkedin.com/company/ierp" },
+    { "name": "Twitter", "url": "https://twitter.com/ierp_official" },
+    { "name": "YouTube", "url": "https://youtube.com/ierp_channel" }
+  ]
+}

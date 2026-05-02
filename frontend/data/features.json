@@ -1,0 +1,47 @@
+{
+  "categories": ["All", "Academic", "Finance", "Security", "Technical"],
+  "items": [
+    {
+      "id": 1,
+      "title": "Predictive Retention",
+      "details": "AI models that flag at-risk students with 98% accuracy.",
+      "category": "Academic",
+      "icon": "Zap"
+    },
+    {
+      "id": 2,
+      "title": "Automated Budgeting",
+      "details": "Real-time fiscal monitoring and multi-currency ledger sync.",
+      "category": "Finance",
+      "icon": "BarChart3"
+    },
+    {
+      "id": 3,
+      "title": "Zero-Trust Security",
+      "details": "Military-grade encryption for all institutional records.",
+      "category": "Security",
+      "icon": "Shield"
+    },
+    {
+      "id": 4,
+      "title": "Global API Suite",
+      "details": "Seamless integration with third-party academic tools.",
+      "category": "Technical",
+      "icon": "Code2"
+    },
+    {
+      "id": 5,
+      "title": "Unified Student Portal",
+      "details": "A single mobile-first interface for all student services.",
+      "category": "Academic",
+      "icon": "Users"
+    },
+    {
+      "id": 6,
+      "title": "Smart Timetabling",
+      "details": "Algorithmic scheduling that optimizes classroom utilization.",
+      "category": "Academic",
+      "icon": "Clock"
+    }
+  ]
+}

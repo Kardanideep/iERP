@@ -1,0 +1,30 @@
+[
+  {
+    "step": "01",
+    "title": "Institutional Audit",
+    "description": "Our senior analysts perform a deep-dive into your current legacy systems and data silos.",
+    "duration": "Week 1-2",
+    "status": "Discovery"
+  },
+  {
+    "step": "02",
+    "title": "Data Orchestration",
+    "description": "Automated migration of student, financial, and administrative records into the iERP cloud.",
+    "duration": "Week 3-6",
+    "status": "Migration"
+  },
+  {
+    "step": "03",
+    "title": "Command Center Setup",
+    "description": "Configuration of institutional-level permissions and security protocols.",
+    "duration": "Week 7-8",
+    "status": "Configuration"
+  },
+  {
+    "step": "04",
+    "title": "Faculty Immersion",
+    "description": "Comprehensive training and UI onboarding for administrative and teaching staff.",
+    "duration": "Week 9-10",
+    "status": "Launch"
+  }
+]

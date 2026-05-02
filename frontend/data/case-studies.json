@@ -1,0 +1,61 @@
+{
+  "categories": ["All", "Digital Transformation", "Student Success", "Infrastructure", "Financial Excellence"],
+  "studies": [
+    {
+      "id": 1,
+      "universityName": "Stanford Global Institute",
+      "category": "Digital Transformation",
+      "title": "Unifying 12 Decentralized Departments",
+      "summary": "How iERP bridged the gap between legacy silos and a unified administrative cloud.",
+      "results": [
+        "45% Reduction in Admin Overhead",
+        "100% Data Synchronization",
+        "Sub-second Query Speeds"
+      ],
+      "image": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=1200",
+      "fullStory": "Stanford Global Institute faced a critical challenge: 12 different departments were using 12 different legacy systems. Data was fragmented, and institutional reporting took weeks. By implementing iERP's unified infrastructure, they achieved a single source of truth within 6 months. The transition allowed for real-time resource allocation and a massive reduction in manual reconciliation tasks."
+    },
+    {
+      "id": 2,
+      "universityName": "MIT Tech Academy",
+      "category": "Student Success",
+      "title": "Predictive Retention at Scale",
+      "summary": "Leveraging AI heuristics to identify at-risk students before they fall behind.",
+      "results": [
+        "22% Increase in Graduation Rates",
+        "98% Prediction Accuracy",
+        "Real-time Intervention Alerts"
+      ],
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200",
+      "fullStory": "MIT Tech Academy utilized iERP's AI-driven retention engine to analyze behavioral patterns and academic performance. The system successfully identified students struggling with coursework weeks before midterm exams, allowing faculty to intervene proactively. This human-centric application of AI has transformed their academic support culture."
+    },
+    {
+      "id": 3,
+      "universityName": "Oxford Research Hub",
+      "category": "Infrastructure",
+      "title": "Zero-Trust Security for Global Research",
+      "summary": "Protecting sensitive intellectual property across a global network of researchers.",
+      "results": [
+        "Zero Data Breaches in 24 Months",
+        "300% Faster Grant Processing",
+        "Military-Grade Encryption"
+      ],
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+      "fullStory": "Oxford Research Hub required a secure yet accessible environment for their global network of 5,000+ researchers. iERP's Zero-Trust architecture provided the perfect balance, ensuring that high-value intellectual property was protected while grant management and data sharing remained friction-free. The system has become the gold standard for secure academic collaboration."
+    },
+    {
+      "id": 4,
+      "universityName": "Zurich Finance School",
+      "category": "Financial Excellence",
+      "title": "Autonomous Ledger Orchestration",
+      "summary": "Transforming complex multi-currency budgeting with real-time AI audits.",
+      "results": [
+        "99.9% Audit Accuracy",
+        "Automated Multi-currency Sync",
+        "Instant Fiscal Reporting"
+      ],
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1200",
+      "fullStory": "The Zurich Finance School managed a complex ecosystem of international grants and multi-currency operations. iERP's financial suite automated the entire ledger synchronization process, eliminating human error in reconciliation. Their fiscal year-end closing process, which previously took 30 days, is now completed in less than 48 hours."
+    }
+  ]
+}

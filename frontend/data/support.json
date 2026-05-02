@@ -1,0 +1,57 @@
+{
+  "tiers": [
+    {
+      "id": "knowledge",
+      "icon": "MessageSquare",
+      "title": "Knowledge Base",
+      "description": "Browse our comprehensive institutional repository for instant self-service guidance.",
+      "features": [
+        "40+ Technical Articles",
+        "Implementation Guides",
+        "Academic Modules Help",
+        "Security Best Practices"
+      ],
+      "link": "/faq",
+      "linkText": "Explore FAQ"
+    },
+    {
+      "id": "global",
+      "icon": "Globe",
+      "title": "Global Support",
+      "description": "Direct access to our expert multi-timezone support hotlines and technical leads.",
+      "features": [
+        "24/7 Phone Support",
+        "Direct Email Channel",
+        "Dedicated Account Leads",
+        "SLA-Backed Response"
+      ],
+      "link": "/contact",
+      "linkText": "Contact Center"
+    },
+    {
+      "id": "dev",
+      "icon": "Settings",
+      "title": "Developer Portal",
+      "description": "Technical resources for institutional IT teams managing API integrations and data flows.",
+      "features": [
+        "REST API Documentation",
+        "Data Migration Tools",
+        "SDK Access Hub",
+        "Webhook Configuration"
+      ],
+      "link": "#",
+      "linkText": "View Docs"
+    }
+  ],
+  "systemStatus": [
+    { "label": "Core Engine", "status": "Operational", "color": "#22c55e" },
+    { "label": "Data API", "status": "Operational", "color": "#22c55e" },
+    { "label": "Auth Hub", "status": "Operational", "color": "#22c55e" },
+    { "label": "CDN Network", "status": "Operational", "color": "#22c55e" }
+  ],
+  "sla": {
+    "uptime": "99.9%",
+    "responseTime": "4-hour",
+    "commitment": "We guarantee 99.9% uptime and 4-hour critical response times for all Enterprise-tier institutional partners, backed by global operational transparency."
+  }
+}
