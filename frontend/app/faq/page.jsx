@@ -83,7 +83,7 @@ const FAQItem = ({ faq, isOpen, onToggle }) => {
       </button>
       
       <div className={`transition-all duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] ${isOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
-        <div className="border-t border-white/5 p-8 pt-0 mt-4">
+        <div className="border-t border-white/5 p-8 pt-4 mt-4">
            <div className="rounded-2xl bg-white/[0.02] p-8">
               <p className="text-lg leading-relaxed text-premium-tan/60">
                 {faq.a}
